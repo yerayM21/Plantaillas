@@ -1,0 +1,77 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+
+# Herramientas y caches
+.mypy_cache/
+.pytype/
+.pyre/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.ruff_cache/
+.dmypy.json
+.pyre_check/
+
+# Notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Datos y artefactos comunes
+*.log
+logs/
+*.sqlite3
+*.db
+.cache/
+.tmp/
+temp/
+tmp/
+
+# Configs locales / credenciales
+*.env
+*.env.*
+.envrc
+.env.local
+.secrets/
+.terraform/        # si usas Terraform
+*.pem
+*.key
+
+# IDEs / editores
+.vscode/
+.vscode-oss/
+.idea/
+*.iml
+*.code-workspace
+
+# SO / archivos basura
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Frontend opcional (si existe)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.next/
+out/
