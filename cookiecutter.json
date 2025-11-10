@@ -1,0 +1,9 @@
+{
+    "project_title": "Personal Proyecto",
+    "project_slug": "{{ cookiecutter.project_title.lower().replace(' ', '_') }}",
+    "project_author_name": "Mi Nombre",
+    "project_description": "Una breve descripción de mi proyecto personal.",
+    "project_packages": ["All", "Minimal"],
+    "python_version": "3.10",
+    "init_git_repo": ["yes", "no"]
+}

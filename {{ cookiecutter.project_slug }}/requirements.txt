@@ -1,0 +1,24 @@
+# requirements.txt (en tu template)
+{% if cookiecutter.project_packages == "ALL" -%}
+fs
+jupyter
+jupyterlab
+ipykernel
+pathlib
+pyprojroot
+phyre
+pandas
+numpy
+{% elif cookiecutter.project_packages == "Minimal" -%}
+pandas
+numpy
+jupyter
+jupyterlab
+ipykernel
+{% endif -%}
+
+# comunes
+requests>=2.31
+python =={{ cookiecutter.python_version }}
+{% if cookiecutter.project_packages == "ALL" -%}
+{%- endif %}
