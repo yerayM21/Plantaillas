@@ -19,6 +19,5 @@ ipykernel
 
 # comunes
 requests>=2.31
-python =={{ cookiecutter.python_version }}
 {% if cookiecutter.project_packages == "ALL" -%}
 {%- endif %}
